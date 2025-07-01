@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ViewManager>
+  <Views>
+    <View
+      Actor1 ="earth"
+      Position1 ="0"
+      Actor2 ="blank"
+      Text ="Earth: I made it to class on time!"
+      Font ="Fonts/LoogieHawk"
+      Background = "space"
+      Music ="Music/BizetHabanera">
+    </View>
+    <View
+      Actor1 ="earth"
+      Actor2 ="blank"
+      Text ="Earth: Huh? What's this note?"
+      Font ="Fonts/LoogieHawk"
+      Background = "space"
+      Music ="Music/BizetHabanera">
+    </View>
+    <View
+      Text ="Dear senpai..."
+      Font ="Fonts/Seattle Avenue"
+      Music ="Music/BizetHabanera">
+    </View>
+    <View
+      Text ="Do you like me?"
+      Font ="Fonts/Seattle Avenue"
+      Music ="Music/BizetHabanera">
+    </View>
+      <ChoiceView 
+        Actor2 ="blank"
+        Font ="Fonts/LoogieHawk"
+        Text ="Yes"
+        ChoiceMessage ="No"
+        Scene1 ="goodend"
+        Scene2 ="badend"
+        >
+  </ChoiceView>
+    
+  </Views>
+</ViewManager>

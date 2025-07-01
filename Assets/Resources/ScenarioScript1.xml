@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ViewManager>
+<Views>
+
+  <View Actor1 ="earth"
+        Actor2 ="moon"
+        Position1 ="-3.4"
+        Position2 ="3.8"
+        Position3 ="20"
+        Text ="Earth: Oh, Moon-chan! I didn't see you orbiting me!"
+        ColorText ="Earth: Oh, &lt;color=yellow&gt; Moon-chan! &lt;/color&gt; I didn't see you orbiting me!"
+        Font ="Fonts/LoogieHawk"
+        Background = "space"
+        Music ="Music/BizetHabanera"
+    >
+  </View>
+
+      <View 
+            Actor1 ="earth"
+            Actor2 ="moonblush"
+            Text ="Moon: Sh-shut up, dumbass! I was just passing by, okay!?"
+            >
+      </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moon"
+            RecallActor1 ="false"
+            Actor1Action ="Moving"
+            Position1 ="-3.4"
+            Target1 ="-5.4"
+            Text ="Earth: Oh no... I'm gonna be late for class!"
+            >
+      </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moon"
+            RecallActor1 ="false"
+            Position1 ="-5.4"
+            Text ="Earth: We'll have to catch up later, Moon-chan!"
+            ColorText="Earth: We'll have to catch up later, &lt;color=yellow&gt;Moon-chan!&lt;/color&gt;"
+            
+            >
+      </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moon"
+            Text ="Moon: Hey, Earth-senpai! Wait just a minute!"
+            >
+      </View>
+
+     <View  Actor1 = "earth"
+            Actor2 = "moon"
+            Position1 ="-5.4"
+            Target1 ="-3.4"
+            Actor1Action ="Moving"
+            Text ="Earth: Huh? Was something the matter?"
+            >
+    </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moonblush"
+            Text ="Moon: ...um..."
+            >
+      </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moonblush"
+            Text ="(Damnit Moon... just tell him how you feel already!)"
+            Actor2Action ="Shaking"
+            >
+        
+      </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moon"
+            Text ="Moon: Y-you're always forgetting your lunch, senpai..."
+            ColorText="Moon: Y-you're &lt;color=red&gt;always forgetting your lunch,&lt;/color&gt; senpai..."
+>
+        </View>
+
+      <View Actor1 = "earth"
+            Actor2 = "moon"
+            Text ="Moon: That's why... today..."
+            Music ="Music/BizetHabanera">
+      </View>
+
+       <View Actor1 = "earth"
+             Actor2 = "moonblush"
+             Text ="Moon: T-t-today, I packed a lunch for you...!!"
+             ColorText ="Moon: T-t-today, I packed a &lt;color=green&gt;lunch&lt;/color&gt; for you...!!"
+             Music ="Music/BizetToreadores">
+            </View>
+
+      <View Actor1 = "earthblush"
+            Actor2 = "moonblush"
+            Text ="Earth: M-Moon-chan! Does... does this mean what I think it-"
+            ColorText="Earth: &lt;color=yellow&gt;M-Moon-chan!&lt;/color&gt; Does... does this mean what I think it-"
+>
+      </View>
+
+      <View Actor1 = "earthblush"
+            Actor2 = "moonblush"
+            Text ="Moon: What!? N-no! Of course not! Get those weird thoughts out of your head!"
+            >
+      </View>
+
+    <View Actor1 = "earth"
+          Actor2 = "moonblush"
+          Text ="Earth: ...I see... well! Thank you for the meal, Moon-chan!"
+          ColorText ="Earth: ...I see... well! Thank you for the meal, &lt;color=yellow&gt;Moon-chan!&lt;/color&gt;"
+>
+    </View>
+
+    <View Actor1 = "earth"
+          Actor2 = "moonblush"
+          Text = "Later!"
+          Music ="Music/BizetToreadores"
+          Position1 ="-3.41"
+          Target1 ="-20"
+          Actor1Action ="Moving"
+          >
+      
+    </View>
+
+    <View 
+          Actor1 ="blank"
+          Actor2 = "moon"
+          Text ="Moon: Oh senpai... I wanted you to notice..."
+          Font ="Fonts/LoogieHawk"
+          Music ="none"
+          >
+    </View>
+
+  <View
+        Font ="Fonts/Seattle Avenue"
+        Text ="Moon: ...I really WAS orbiting you on purpose..." 
+        Position2 ="3.8"
+        >
+
+  </View>
+
+  <View Actor1 = "blank"
+        Actor2 = "moon"
+        Position2 ="3.8"
+        Target2 ="20"
+        Actor2Action = "Moving"
+        >
+  </View>
+
+  <ChoiceView 
+        Position1 ="-20"
+        Position2="20"
+        Font ="Fonts/LoogieHawk"
+        Text ="Good ending"
+        ChoiceMessage ="Bad ending"
+        Scene1 ="Scenario2"
+        Scene2 ="Scenario2"
+        Scene3 ="Scenario2"
+        >
+  </ChoiceView>
+      
+    </Views>
+  </ViewManager>
+
